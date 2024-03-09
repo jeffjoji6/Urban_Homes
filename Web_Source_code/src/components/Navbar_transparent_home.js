@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import api from "../Api.js";
-import logo from "../images/c7bfba41e5c04691b076b125231388d4__2_-removebg-preview.png";
+import logo from "../images/Urban homes logo.png";
 import Dropdown from "./Dropdown";
 import img from "../images/user_0_img.jpg";
 import "../App.css";
@@ -236,7 +236,7 @@ function Navbar() {
             <Link to="/">
               <img
                 src={logo}
-                class=" p-2 w-32 scale-150"
+                class=" p-3 w-32 scale-150"
                 alt="HalaHomes Logo"
               />
             </Link>

@@ -5,7 +5,7 @@ import "../Button.css";
 import cover_image from "../../images/resized final bg 2.jpg";
 import img9 from "../../images/1 (8).jpeg";
 import housemax from "../../images/1 (16) 1.jpg";
-import founder from "../../images/founder.jpg";
+import founder from "../../images/Firefly create me photo of person who is the ceo of the company it should be very realistic korean 7.jpg";
 import back from "../../images/bg sec 2.png";
 import Feat from "../../images/f-01.png";
 import Feat01 from "../../images/f-02.png";

@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import api from "../Api.js";
-import logo from "../images/c7bfba41e5c04691b076b125231388d4__2_-removebg-preview.png";
+import logo from "../images/Urban homes logo.png";
 import Dropdown from "./Dropdown.js";
 import img from "../images/user_0_img.jpg";
 import $ from "jquery";
@@ -235,7 +235,11 @@ function Navbar() {
           <div class="max-w-screen-xl  flex flex-wrap  items-center justify-between mx-auto p-2">
             <a class="flex items-center space-x-3 rtl:space-x-reverse">
               <Link to="/">
-                <img src={logo} class="w-32 scale-150" alt="HalaHomes Logo" />
+                <img
+                  src={logo}
+                  class="w-32 p-3 scale-150"
+                  alt="HalaHomes Logo"
+                />
               </Link>
             </a>
             <div className="hidden md:flex space-x-16">
